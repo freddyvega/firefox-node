@@ -4,7 +4,7 @@ Selenium Node configured to run Firefox
 
 ## Dockerfile
 
-[`selenium/node-firefox` Dockerfile](https://github.com/SeleniumHQ/docker-selenium/blob/master/NodeFirefox/Dockerfile)
+[`freddyvega/firefox-node` Dockerfile](https://github.com/freddyvega/firefox-node/blob/master/Dockerfile)
 
 ## How to use this image
 
@@ -17,7 +17,7 @@ $ docker run -d -P --name selenium-hub selenium/hub
 Once the hub is up and running will want to launch nodes that can run tests. You can run as many nodes as you wish.
 
 ```
-$ docker run -d --link selenium-hub:hub selenium/node-firefox
+$ docker run -d --link selenium-hub:hub freddyvega/firefox-node
 ```
 
 ## What is Selenium?
