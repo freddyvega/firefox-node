@@ -1,6 +1,6 @@
 # Selenium Grid Node - Firefox
 
-Selenium Node configured to run Firefox
+Selenium Node configured to run Firefox. It differs from the original provided by Selenium in that it can handle 5 instances of firefox per container. To achieve this the config.json was updated accordingly.
 
 ## Dockerfile
 
